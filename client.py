@@ -86,4 +86,10 @@ def register_process():
 
 def register_petition():
      # enviar SUBS_REQ en un bucle fins que el servidor respongui
+     #funció que s'encarrega de gestionar la petició de regustre amb
+     #un servidor a través de udp
+
+     #configurar el port del servidor UDP a través del qual 
+     #es realitzarà la comunicació
+     #assignar el port del client a la estructura de la pdu
      
